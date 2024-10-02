@@ -1,0 +1,12 @@
+{
+    "name": "serge/faker",
+    "authors": [
+        {
+            "name": "seasone",
+            "email": "contact.seasone@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.23"
+    }
+}
