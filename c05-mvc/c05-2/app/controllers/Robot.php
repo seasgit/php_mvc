@@ -15,7 +15,7 @@ class Robot
     public function index()
     {
         $titre = "Liste des robots";
-        $page =  PATH_ROOT . "./app/views/robots/index.php";
-        require PATH_ROOT . "./app/views/base.php";
+        $page =  PATH_ROOT . "/app/views/robots/index.php";
+        require PATH_ROOT . "/app/views/base.php";
     }
 }
