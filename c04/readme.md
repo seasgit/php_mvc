@@ -36,6 +36,9 @@ require "vendor/autoload.php";
 
 - taper `php Faker` 
 - Voir l'installation proposée dans la doc.
+```php
+composer require fakerphp/faker
+```
 
 ### Classe Faker
 - créer la classe `lib/Faker.php`
