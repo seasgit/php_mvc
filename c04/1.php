@@ -2,6 +2,8 @@
 require "./app/entity/Personne.php";
 require "./app/entity/Employe.php";
 require "./lib/utile/Util.php";
+
+# autoload pour Faker et chargement de la classe
 require "./vendor/autoload.php";
 require "./lib/utile/Faker.php";
 
