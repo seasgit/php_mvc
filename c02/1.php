@@ -1,6 +1,8 @@
 <?php
 require "./app/entity/Personne.php";
 
+// Ici  la photo est celle définie par défaut dans la classe Personne
+
 $p1  = new Personne();
 $p1->setPrenom()
     ->setNom()
