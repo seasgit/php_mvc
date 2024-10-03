@@ -42,7 +42,7 @@ La structure MVC peut nous poser problème et générer des erreurs liées aux a
 - charger une image
 
 
-## Solution dans le Router index
+## Solution dans le Router provisoire de l'index principal
 On crée un adressage absolu.
 ```php
 ## fichier index à la racine du projet utilisé comme router temporaire
@@ -51,3 +51,7 @@ echo phpinfo();
 define("PATH_ROOT", dirname($_SERVER['SCRIPT_FILENAME']));
 define('BASE_URL', dirname($_SERVER['SERVER_NAME']));
 ```
+# Le router
+
+- Pour le moment il est très basique (voir le code).
+- On le placera plus tard dans une classe `system\Router.php` 
