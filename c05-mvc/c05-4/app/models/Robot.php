@@ -35,17 +35,5 @@ class Robot
         }
 
 
-        #
-        # 2
-        #
-        // $sql =  "SELECT R.id, R.nom, S.nom AS snom  
-        //           FROM Robot R JOIN secteur S ON R.secteur_id = S.id";
-        // try {
-        //     $stmt =  $this->dbh->prepare($sql);
-        //     $stmt->execute();
-        //     return $stmt->fetchAll(\PDO::FETCH_OBJ);
-        // } catch (\PDOException $e) {
-        //     die($e->getMessage());
-        // }
     }
 }
